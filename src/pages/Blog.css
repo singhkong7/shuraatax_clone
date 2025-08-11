@@ -1,0 +1,35 @@
+.blog_main_container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.blog_list_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 2;
+}
+
+.components {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .blog_main_container {
+    flex-direction: column;
+  }
+
+  .blog_list_container {
+    flex-direction: column;
+  }
+
+  .components {
+    flex-direction: column;
+  }
+}

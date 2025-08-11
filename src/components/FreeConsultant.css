@@ -1,0 +1,56 @@
+.free-consultation {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.free-consultation h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 5px;
+}
+
+.free-consultation label {
+  display: block;
+  font-weight: 500;
+  margin: 10px 0 5px;
+}
+
+.free-consultation span {
+  color: red;
+}
+
+.free-consultation input,
+.free-consultation select,
+.free-consultation textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 3px;
+}
+
+.phone-input {
+  display: flex;
+}
+
+.phone-input select {
+  width: 80px;
+  margin-right: 5px;
+}
+
+.free-consultation button {
+  margin-top: 12px;
+  background: #0d6efd;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.free-consultation button:hover {
+  background: #0b5ed7;
+}

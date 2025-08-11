@@ -1,0 +1,37 @@
+.trending-posts {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.trending-posts h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 5px;
+}
+
+.trending-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trending-posts li {
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.trending-posts .title {
+  font-weight: 500;
+  color: #000;
+}
+
+.trending-posts .title:hover {
+  color: #0d6efd;
+}
+
+.trending-posts .date {
+  font-size: 0.85rem;
+  color: gray;
+}
